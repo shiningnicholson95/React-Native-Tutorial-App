@@ -50,6 +50,11 @@ const HomeScreen = (props) => {
        title="Box Layout"
        onPress={()=>props.navigation.navigate('Box')}
       />
+           <Button
+        style={styles.buttonStyle}
+       title="Layout Practice"
+       onPress={()=>props.navigation.navigate('Layout')}
+      />
     </View>
   )
 };
